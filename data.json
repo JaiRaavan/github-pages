@@ -45,42 +45,42 @@
         "7": {
             "id": 7,
             "title": "Geetha Govindam",
-            "image": "/imgs/geeta.jpg",
+            "image": "./imgs/geeta.jpg",
             "price": 190,
             "info": "A romantic comedy starring Vijay Deverakonda and Rashmika Mandanna, loved for its humor and chemistry."
         },
         "8": {
             "id": 8,
             "title": "rrr",
-            "image": "/imgs/rrr.jpg",
+            "image": "./imgs/rrr.jpg",
             "price": 170,
             "info": "A supernatural thriller that became a trendsetter in Indian horror cinema."
         },
         "9": {
             "id": 9,
             "title": "Sultan",
-            "image": "/imgs/sultan.jpg",
+            "image": "./imgs/sultan.jpg",
             "price": 240,
             "info": "Salman Khan stars as a wrestler in this inspiring sports drama about redemption and perseverance."
         },
         "10": {
             "id": 10,
             "title": "Jawaan",
-            "image": "/imgs/jawan.jpg",
+            "image": "./imgs/jawan.jpg",
             "price": 260,
             "info": "Shah Rukh Khan headlines this action-packed film with a patriotic theme and powerful performances."
         },
         "11": {
             "id": 11,
             "title": "Formula 1",
-            "image": "/imgs/f1-movie.jpg",
+            "image": "./imgs/f1-movie.jpg",
             "price": 200,
             "info": "A thrilling motorsport documentary capturing the excitement and drama of Formula 1 racing."
         },
         "12": {
             "id": 12,
             "title": "Haunted",
-            "image": "/imgs/haunted.jpg",
+            "image": "./imgs/haunted.jpg",
             "price": 160,
             "info": "A chilling horror film set in a mysterious mansion, known for its suspenseful plot and scares."
         }

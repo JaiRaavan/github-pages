@@ -65,16 +65,16 @@
                 moviesList.innerHTML = movies.map(movie => `
                     <div class="col-md-4 col-sm-6">
                         <div class="card h-100 shadow">
-                            <a href="details.html?id=${movie.id}">
+                            <a href="./details.html?id=${movie.id}">
                                 <img src="${movie.image}" class="card-img-top movie-img" alt="${movie.title}">
                             </a>
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">
-                                    <a href="details.html?id=${movie.id}" class="text-decoration-none text-dark">${movie.title}</a>
+                                    <a href="./details.html?id=${movie.id}" class="text-decoration-none text-dark">${movie.title}</a>
                                 </h5>
                                 <p class="card-text">${movie.info}</p>
                                 <span class="badge bg-success mb-2">₹${movie.price}</span>
-                                <a href="details.html?id=${movie.id}" class="btn btn-primary mt-auto w-100">View Details</a>
+                                <a href="./details.html?id=${movie.id}" class="btn btn-primary mt-auto w-100">View Details</a>
                             </div>
                         </div>
                     </div>
