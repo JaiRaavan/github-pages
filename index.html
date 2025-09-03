@@ -25,11 +25,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
-                    <li class="nav-item"><a class="nav-link" href="movies.html">Movies</a></li>
-                    <li class="nav-item"><a class="nav-link" href="trending.html">Trending</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/html/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/html/login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/html/register.html">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/html/movies.html">Movies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/html/trending.html">Trending</a></li>
                 </ul>
             </div>
         </div>
@@ -40,7 +40,7 @@
         <div class="container">
             <h1 class="display-4">Welcome to BookMyShow</h1>
             <p class="lead">Book tickets for movies, events, and more!</p>
-            <a href="movies.html" class="btn btn-light btn-lg mt-3">Book Now</a>
+            <a href="/html/movies.html" class="btn btn-light btn-lg mt-3">Book Now</a>
         </div>
     </section>
 
@@ -53,7 +53,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col text-center">
-                    <a href="movies.html" class="btn btn-outline-primary btn-lg">More Movies</a>
+                    <a href="/html/movies.html" class="btn btn-outline-primary btn-lg">More Movies</a>
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Live Concerts</h5>
                             <p class="card-text">Catch the hottest music events in your city.</p>
-                            <a href="trending.html" class="btn btn-outline-primary">Explore Events</a>
+                            <a href="/html/trending.html" class="btn btn-outline-primary">Explore Events</a>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Sports Matches</h5>
                             <p class="card-text">Book tickets for upcoming sports matches and tournaments.</p>
-                            <a href="trending.html" class="btn btn-outline-primary">View Matches</a>
+                            <a href="/html/trending.html" class="btn btn-outline-primary">View Matches</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Load movies from data.json -->
     <script>
-        fetch('../data.json')
+        fetch('/data.json')
             .then(response => response.json())
             .then(data => {
                 const moviesObj = data.movies;
@@ -120,16 +120,16 @@
                 moviesList.innerHTML = movies.map(movie => `
                     <div class="col-md-4">
                         <div class="card h-100">
-                            <a href="details.html?id=${movie.id}">
+                            <a href="/html/details.html?id=${movie.id}">
                                 <img src="${movie.image}" class="card-img-top movie-img" alt="${movie.title}">
                             </a>
                             <div class="card-body">
                                 <h5 class="card-title">
-                                    <a href="details.html?id=${movie.id}" class="text-decoration-none text-dark">${movie.title}</a>
+                                    <a href="/html/details.html?id=${movie.id}" class="text-decoration-none text-dark">${movie.title}</a>
                                 </h5>
                                 <p class="card-text">${movie.info}</p>
                                 <span class="badge bg-success mb-2">₹${movie.price}</span>
-                                <a href="movies.html" class="btn btn-primary w-100">Book Ticket</a>
+                                <a href="/html/movies.html" class="btn btn-primary w-100">Book Ticket</a>
                             </div>
                         </div>
                     </div>
