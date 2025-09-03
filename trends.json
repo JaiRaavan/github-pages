@@ -1,0 +1,68 @@
+{
+  "trending": {
+    "actors": [
+      {
+        "id": 1,
+        "name": "Shah Rukh Khan",
+        "image": "https://www.google.com/imgres?q=shah%20rukh%20khan%20images&imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2024%2F07%2FShah-Rukh-Khan.jpg&imgrefurl=https%3A%2F%2Fvariety.com%2F2024%2Ffilm%2Fasia%2Fshah-rukh-khan-bollywood-global-icon-locarno-1236092379%2F&docid=3TpnnXxKOJH_fM&tbnid=EX66-F1i8KcHQM&vet=12ahUKEwiThsrYpryPAxVM1DgGHcWCEssQM3oECC0QAA..i&w=1000&h=677&hcb=2&ved=2ahUKEwiThsrYpryPAxVM1DgGHcWCEssQM3oECC0QAA",
+        "info": "Known as the 'King of Bollywood', Shah Rukh Khan is one of the most successful and influential actors in Indian cinema."
+      },
+      {
+        "id": 2,
+        "name": "Salman Khan",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indiatoday.in%2Fmovies%2Fbollywood%2Fstory%2Fsalman-khan-to-revive-action-image-with-sikandar-2588693-2024-08-27&psig=AOvVaw3yTtvo8qFLnO18-ycXeANG&ust=1756978870828000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMDy4L-mvI8DFQAAAAAdAAAAABAE", 
+        "info": "A superstar with a massive fan following, Salman Khan is famous for his action-packed roles and charitable work."
+      },
+      {
+        "id": 3,
+        "name": "Allu Arjun",
+        "image": "https://www.gettyimages.com/photos/allu-arjun",
+        "info": "A leading actor in Telugu cinema, Allu Arjun is celebrated for his dance skills and versatile performances."
+      },
+      {
+        "id": 4,
+        "name": "Mahesh Babu",
+        "image": "https://commons.wikimedia.org/wiki/File:Mahesh_Babu_in_Spyder.jpg",
+        "info": "Mahesh Babu is a top Telugu actor known for his charm, action roles, and box office hits."
+      },
+      {
+        "id": 5,
+        "name": "Prabhas",
+        "image": "https://www.bollywoodhungama.com/celebrity/prabhas/photos/",
+        "info": "Prabhas gained international fame with the Baahubali series and is a major star in Indian cinema."
+      }
+    ],
+    "actresses": [
+      {
+        "id": 1,
+        "name": "Deepika Padukone",
+        "image": "https://en.wikipedia.org/wiki/File:Deepika_Padukone_at_2019_Cannes.jpg",
+        "info": "One of the highest-paid actresses in India, Deepika Padukone is known for her powerful roles and global presence."
+      },
+      {
+        "id": 2,
+        "name": "Alia Bhatt",
+        "image": "https://www.gettyimages.com/photos/alia-bhatt",
+        "info": "Alia Bhatt is acclaimed for her acting range and has delivered several critically and commercially successful films."
+      },
+      {
+        "id": 3,
+        "name": "Rashmika Mandanna",
+        "image": "https://www.instagram.com/rashmika_mandanna/?hl=en",
+        "info": "A rising star in South Indian cinema, Rashmika Mandanna is loved for her charm and performances."
+      },
+      {
+        "id": 4,
+        "name": "Kareena Kapoor Khan",
+        "image": "https://www.instagram.com/aliaabhatt", 
+        "info": "Kareena Kapoor Khan is a versatile actress known for her iconic roles and fashion sense."
+      },
+      {
+        "id": 5,
+        "name": "Samantha Ruth Prabhu",
+        "image": "https://www.instagram.com/samantha_ruth_prabhu",
+        "info": "Samantha is a leading actress in Telugu and Tamil cinema, celebrated for her acting and social work."
+      }
+    ]
+  }
+}
