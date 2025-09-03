@@ -3,21 +3,21 @@
         "1": {
             "id": 1,
             "title": "Jalsa",
-            "image": "/imgs/jalsa.jpg",
+            "image": "./imgs/jalsa.jpg",
             "price": 220,
             "info": "A fun-filled action entertainer starring Pawan Kalyan, blending comedy and drama."
         },
         "2": {
             "id": 2,
             "title": "Sahoo",
-            "image": "/imgs/saaho.jpg",
+            "image": "./imgs/saaho.jpg",
             "price": 250,
             "info": "A high-octane action thriller featuring Prabhas and Shraddha Kapoor, packed with stunts and suspense."
         },
         "3": {
             "id": 3,
             "title": "Srimanthudu",
-            "image": "/imgs/srimanthudu.jpg",
+            "image": "./imgs/srimanthudu.jpg",
             "price": 200,
             "info": "Mahesh Babu stars in this family drama about social responsibility and rural development."
         },
