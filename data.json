@@ -3,14 +3,14 @@
         "1": {
             "id": 1,
             "title": "Jalsa",
-            "image": "imgs/jalsa.jpg",
+            "image": "./imgs/jalsa.jpg",
             "price": 220,
             "info": "A fun-filled action entertainer starring Pawan Kalyan, blending comedy and drama."
         },
         "2": {
             "id": 2,
             "title": "Sahoo",
-            "image": "imgs/saaho.jpg",
+            "image": "./imgs/saaho.jpg",
             "price": 250,
             "info": "A high-octane action thriller featuring Prabhas and Shraddha Kapoor, packed with stunts and suspense."
         },
@@ -24,21 +24,21 @@
         "4": {
             "id": 4,
             "title": "Pokiri",
-            "image": "/imgs/pokiri.jpg",
+            "image": "./imgs/pokiri.jpg",
             "price": 180,
             "info": "A blockbuster action film with Mahesh Babu, known for its gripping story and memorable dialogues."
         },
         "5": {
             "id": 5,
             "title": "Pushpa",
-            "image": "/imgs/pushpaa.jpg",
+            "image": "./imgs/pushpaa.jpg",
             "price": 230,
             "info": "Allu Arjun shines in this rugged action drama set in the red sanders smuggling world."
         },
         "6": {
             "id": 6,
             "title": "Tagore",
-            "image": "/imgs/tagore.jpg",
+            "image": "./imgs/tagore.jpg",
             "price": 210,
             "info": "Chiranjeevi leads this social action film about fighting corruption and injustice."
         },
